@@ -12,3 +12,10 @@ Powered by NextJS & Tailwind CSS & TypeScript
 Derived from create-next-app
 
 You have to access the localhost:3000 to see the result
+
+## Memo
+Before how to use..
+
+<a href="https://nextjs.org/docs/getting-started">nextjs getting started</a>
+
+<a href="https://tailwindcss.com/docs/guides/nextjs">guide to install tailwindcss in nextjs project</a>
