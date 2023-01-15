@@ -6,10 +6,9 @@ function Header({ header } : { header: string }) {
             <h1 className="mx-auto text-2xl font-bold text-white">{header}</h1>
             <nav className="mx-auto sm:justify-center space-x-4 text-white">
               {[
-                ['Home', '/dashboard'],
-                ['Team', '/team'],
-                ['Projects', '/projects'],
-                ['Reports', '/reports'],
+                ['Home', '/'],
+                ['Projects', '/project'],
+                ['About', '/about'],
               ].map(([title, url]) => (
                 <a href={url} className="rounded-lg px-3 py-2 font-medium hover:bg-slate-100 hover:text-slate-900 text-white">{title}</a>
               ))}
