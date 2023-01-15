@@ -32,6 +32,7 @@ After that..
 * Responsive header
 * Footer design
 * Sidebar
+* Make sample articles list
 * Go to the top button
 * Logo design
 * Search feature (algolia or another version)
