@@ -20,7 +20,7 @@ Before how to use..
 
 <a href="https://tailwindcss.com/docs/guides/nextjs">guide to install tailwindcss in nextjs project</a>
 
-After that..
+After that.. for svg icon & theme switching
 
 <a href="https://heroicons.com/">hero icons</a>
 
