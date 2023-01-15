@@ -1,10 +1,11 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import { ThemeProvider } from "next-themes";
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ThemeProvider enableSystem={true} attribute="class">
       <Head>
         <title>YJG30737</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -12,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
-    </>
+    </ThemeProvider>
   )
 }
 
