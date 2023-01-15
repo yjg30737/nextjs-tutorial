@@ -29,6 +29,7 @@ After that..
 <a href="https://tailwindcss.com/docs/dark-mode">Light/dark mode tailwind css docs (less accurate than previous one, which is funny)</a>  
 
 ## TODO list
+### Have to do
 * Responsive header
 * Footer design
 * Sidebar
@@ -36,5 +37,9 @@ After that..
 * Go to the top button
 * Logo design
 * Search feature (algolia or another version)
+### Maybe later
+* using react-grid-layout (for customizing layout)
+* using react-beautiful-dnd (for enhancing user experience of data list management)
+* using formik (arguably the most common way to make form)
 
 ...
