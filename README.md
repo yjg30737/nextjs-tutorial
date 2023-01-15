@@ -24,4 +24,6 @@ After that..
 
 <a href="https://heroicons.com/">hero icons</a>
 
-<a href="https://nextjsdev.com/add-dark-mode-in-nextjs-app-using-tailwind-css-dark-mode?x-host=nextjsdev.com">Light/dark mode</a>
+<a href="https://nextjsdev.com/add-dark-mode-in-nextjs-app-using-tailwind-css-dark-mode?x-host=nextjsdev.com">Light/dark mode (article by Vikas Rai)</a>
+
+<a href="https://tailwindcss.com/docs/dark-mode">Light/dark mode tailwind css docs (less accurate than previous one, which is funny)</a>  
