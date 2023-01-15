@@ -35,4 +35,5 @@ After that..
 * Go to the top button
 * Logo design
 * Search feature (algolia or another version)
+
 ...
