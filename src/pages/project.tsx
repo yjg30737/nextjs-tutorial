@@ -1,5 +1,6 @@
+import { MainLayout } from "@/app/components/layout"
 import React from "react"
 
 export default function Project() {
-  return <div>Project</div>
+  return <MainLayout><h1>Project</h1></MainLayout>
 }
