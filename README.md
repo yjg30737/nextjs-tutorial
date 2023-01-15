@@ -27,3 +27,12 @@ After that..
 <a href="https://nextjsdev.com/add-dark-mode-in-nextjs-app-using-tailwind-css-dark-mode?x-host=nextjsdev.com">Light/dark mode (article by Vikas Rai)</a>
 
 <a href="https://tailwindcss.com/docs/dark-mode">Light/dark mode tailwind css docs (less accurate than previous one, which is funny)</a>  
+
+## TODO list
+* Responsive header
+* Footer design
+* Sidebar
+* Go to the top button
+* Logo design
+* Search feature (algolia or another version)
+...
