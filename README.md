@@ -19,3 +19,9 @@ Before how to use..
 <a href="https://nextjs.org/docs/getting-started">nextjs getting started</a>
 
 <a href="https://tailwindcss.com/docs/guides/nextjs">guide to install tailwindcss in nextjs project</a>
+
+After that..
+
+<a href="https://heroicons.com/">hero icons</a>
+
+<a href="https://nextjsdev.com/add-dark-mode-in-nextjs-app-using-tailwind-css-dark-mode?x-host=nextjsdev.com">Light/dark mode</a>
