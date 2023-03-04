@@ -31,7 +31,8 @@ After that.. for svg icon & theme switching
 ## TODO list
 ### Have to do
 * Responsive header
-* Footer design
+* <s>Footer design</s>
+* Practice <a href="https://headlessui.com/react/disclosure">disclosure</a>
 * Sidebar
 * Make sample articles list
 * Go to the top button
