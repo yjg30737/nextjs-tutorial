@@ -30,7 +30,7 @@ After that.. for svg icon & theme switching
 
 ## TODO list
 ### Have to do
-* Responsive header
+* <s>Responsive header</s>
 * <s>Footer design</s>
 * Practice <a href="https://headlessui.com/react/disclosure">disclosure</a>
 * Sidebar
