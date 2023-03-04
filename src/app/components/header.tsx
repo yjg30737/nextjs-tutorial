@@ -127,9 +127,9 @@ export function Header({ header }: { header: string }) {
             </button>
             </div>
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                {/* <form className={`relative md:flex ml-4 ${isNavVisible ? 'block' : 'hidden'}`}>
+                <form className={`relative md:flex lg:inline-block mt-4 md:mt-0 mr-4 ${isNavVisible ? 'block' : 'hidden'}`}>
                     <input
-                        className="text-blue-700 rounded-full px-4 py-2 w-64 focus:outline-none focus:shadow-outline-blue"
+                        className="w-full lg:w-60 rounded-full px-4 py-2 focus:outline-none focus:shadow-outline-blue "
                         type="text"
                         placeholder="Search"
                     />
@@ -138,8 +138,8 @@ export function Header({ header }: { header: string }) {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                         </svg>
                     </button>
-                </form> */}
-                <div className="text-sm lg:flex-grow">
+                </form>
+                <div className="text-sm">
                     <a href="/" className={`${isNavVisible ? 'block' : 'hidden'} md:flex mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4`}>
                         Home
                     </a>
