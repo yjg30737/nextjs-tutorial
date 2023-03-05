@@ -65,6 +65,9 @@ export function Header({ header }: { header: string }) {
                 <a href="/" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4`}>
                     Home
                 </a>
+                <a href="/page" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4`}>
+                    Posts
+                </a>
                 <a href="/project" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4`}>
                     Projects
                 </a>
