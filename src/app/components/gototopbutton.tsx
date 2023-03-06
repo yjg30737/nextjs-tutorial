@@ -29,7 +29,7 @@ export function GoToTopButton() {
         <div className="fixed bottom-10 right-10">
             {showButton && (
                 <button
-                    className="p-4 bg-gray-600 text-white rounded-full shadow-lg focus:outline-none"
+                    className="p-4 bg-gray-100 dark:bg-gray-600 rounded-full shadow-lg focus:outline-none"
                     onClick={handleClick}
                 >
                     <ArrowUpIcon className="h-5 w-5" />
