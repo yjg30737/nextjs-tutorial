@@ -37,6 +37,7 @@ After that.. for svg icon & theme switching
 * <s>Make sample articles list</s>
 * <s>Go to the top button</s>
 * Logo design
+* Hightlight the current page's navbar item, make the router
 * Search feature (algolia or another version)
 ### Maybe later
 * using react-grid-layout (for customizing layout)
