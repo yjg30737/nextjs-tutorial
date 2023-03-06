@@ -42,7 +42,7 @@ export function Header({ header }: { header: string }) {
 
     return <nav className="flex bg-white dark:bg-gray-800 items-center justify-between flex-wrap p-6">
         <div className="flex items-center flex-shrink-0 mr-6">
-            <span className="font-semibold text-xl tracking-tight">{header}</span>
+            <Link href="/"><span className="font-semibold text-xl tracking-tight">{header}</span></Link>
         </div>
         <div className="block lg:hidden">
             <button className="flex items-center px-3 py-2 border rounded hover:text-gray-800 hover:border-gray-800 dark:hover:text-white dark:hover:border-white" onClick={toggleNav}>
