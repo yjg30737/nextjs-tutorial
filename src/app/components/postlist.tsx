@@ -1,11 +1,11 @@
 import React from 'react';
 
 function PostListPage() {
-  const posts = [
-    { id: 1, title: 'Post 1', body: 'Lorem ipsum dolor sit amet.' },
-    { id: 2, title: 'Post 2', body: 'Lorem ipsum dolor sit amet.' },
-    { id: 3, title: 'Post 3', body: 'Lorem ipsum dolor sit amet.' },
-  ];
+  const posts = Array.from({ length: 48 }, (_, index) => ({
+    id: index + 1,
+    title: `Title ${index + 1}`,
+    body: `Content ${index + 1}`,
+  }));
 
   return (
     <div className="container mx-auto">
