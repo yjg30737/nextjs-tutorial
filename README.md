@@ -34,8 +34,8 @@ After that.. for svg icon & theme switching
 * <s>Footer design</s>
 * Practice <a href="https://headlessui.com/react/disclosure">disclosure</a>
 * Sidebar
-* Make sample articles list
-* Go to the top button
+* <s>Make sample articles list</s>
+* <s>Go to the top button</s>
 * Logo design
 * Search feature (algolia or another version)
 ### Maybe later
