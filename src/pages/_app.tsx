@@ -13,6 +13,25 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
+      {/* import { Switch, Route } from 'react-router-dom';
+      import routes from './routes';
+
+      function App() {
+        return (
+          <div>
+            <Navbar />
+            <Switch>
+              {routes.map((route) => (
+                <Route key={route.path} path={route.path} exact={route.exact}>
+                  <route.component />
+                </Route>
+              ))}
+            </Switch>
+          </div>
+        );
+      }
+
+      export default App; */}
     </ThemeProvider>
   )
 }
