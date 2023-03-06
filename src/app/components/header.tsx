@@ -9,6 +9,7 @@ import { SunIcon, MoonIcon, MagnifyingGlassIcon, Bars3Icon } from '@heroicons/re
 export function Header({ header }: { header: string }) {
     const [mounted, setMounted] = useState(false);
     const [isNavVisible, setIsNavVisible] = useState(false);
+    const [currentPage, setCurrentPage] = useState('home');
 
     useEffect(() => {
         setMounted(true);
@@ -39,6 +40,10 @@ export function Header({ header }: { header: string }) {
     function toggleNav() {
         setIsNavVisible(!isNavVisible);
     }
+  
+    const handleLinkClick = (page: any, e: any) => {
+        setCurrentPage(page.trim());
+    };
 
     return <nav className="flex bg-white dark:bg-gray-800 items-center justify-between flex-wrap p-6">
         <div className="flex items-center flex-shrink-0 mr-6">
@@ -61,16 +66,16 @@ export function Header({ header }: { header: string }) {
                 </button>
             </form>
             <div className="text-sm">
-                <Link href="/" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4`}>
+                <Link href="/" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4 ${currentPage === 'home' ? 'active' : ''}`} onClick={(e) => handleLinkClick('home', e)}>
                     Home
                 </Link>
-                <Link href="/page" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4`}>
+                <Link href="/page" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4 ${currentPage === 'page' ? 'active' : ''}`} onClick={(e) => handleLinkClick('page', e)}>
                     Posts
                 </Link>
-                <Link href="/project" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4`}>
+                <Link href="/project" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline mr-4 ${currentPage === 'project' ? 'active' : ''}`} onClick={(e) => handleLinkClick('project', e)}>
                     Projects
                 </Link>
-                <Link href="/about" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline`}>
+                <Link href="/about" className={`${isNavVisible ? 'block' : 'hidden'} mt-4 lg:inline-block lg:mt-0 text-gray-500 dark:text-gray-400 hover:underline ${currentPage === 'about' ? 'active' : ''}`} onClick={(e) => handleLinkClick('about', e)}>
                     About
                 </Link>
             </div>
